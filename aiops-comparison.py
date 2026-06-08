@@ -18,9 +18,9 @@ traditional = {
 }
 
 ai_assisted = {
-    "Log analysis":          "Auto pattern detection via Claude AI",
+    "Log analysis":          "Auto pattern detection via Gemini AI",
     "Alert noise":           "Low - events correlated, fewer false alarms",
-    "Root cause":            "Minutes - Claude suggests fix instantly",
+    "Root cause":            "Minutes - Gemini suggests fix instantly",
     "Anomaly detection":     "ML-based dynamic thresholds",
     "Incident response":     "Proactive - detected before user impact",
     "MTTR":                  "Significantly reduced",
@@ -37,4 +37,4 @@ for feature in traditional:
     print(f"{feature:<25} {traditional[feature]:<40} {ai_assisted[feature]}")
 
 print("\n=== Recommended Stack for FSS Retail ===")
-print("  Prometheus + Grafana (metrics) + Loki (logs) + Robusta (AI alerts) + Claude API (RCA)")
+print("  Prometheus + Grafana (metrics) + Loki (logs) + Robusta (AI alerts) + Gemini API (RCA)")
