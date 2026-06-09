@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: retail-app-config
-  namespace: fss-clu
+  namespace: retail
 # ConfigMap holds non-sensitive environment variables for the retail app and MongoDB
 data:
   MONGODB_URI: "mongodb://mongodb:27017/myDatabase"
